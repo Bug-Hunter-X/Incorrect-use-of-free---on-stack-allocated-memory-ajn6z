@@ -1,0 +1,1 @@
+int main() {    int x = 10;    int *ptr = &x;    *ptr = 20;    printf("%d", x); // Output: 20    // The following line is removed as it was attempting to free stack allocated memory    //free(ptr);    return 0;} 
